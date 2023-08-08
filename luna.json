@@ -1,7 +1,7 @@
 {
     "version": "5.2.0",
     "projectId": "c9cff327bd649014fac34b62073d9372",
-    "applicationID": 0,
+    "applicationID": 17623,
     "creativeName": "",
     "pgServer": "EU",
     "window": {
@@ -31,12 +31,14 @@
                 "Assets/Resources/DOTweenSettings.asset"
             ]
         },
-        "scenes": [],
+        "scenes": [
+            "Assets/Scenes/Arena.unity"
+        ],
         "disabledScenes": [],
         "startupScene": 0,
         "packages": {
             "default": {
-                "applicationName": "",
+                "applicationName": "LunaTest - Application Name",
                 "orientation": "unspecified",
                 "languages": [
                     "en"
@@ -57,7 +59,7 @@
         },
         "preloader": {
             "active": true,
-            "icon": "",
+            "icon": "Assets/Sprites/hand_cursor.png",
             "logo": "",
             "backgroundHexColor": "#914AFA"
         },
@@ -65,11 +67,37 @@
         "enableLunaCompilerV2": false,
         "minify": true,
         "forceUncompressed": false,
-        "forceBase64": false,
+        "forceBase64": true,
         "genericCheck": true,
         "disableAntiAliasing": true,
         "forceStableRandomSeed": false,
-        "unusedModules": [],
+        "unusedModules": [
+            {
+                "name": "physics3d",
+                "excluded": false,
+                "forceIncluded": false
+            },
+            {
+                "name": "physics2d",
+                "excluded": false,
+                "forceIncluded": false
+            },
+            {
+                "name": "particle-system",
+                "excluded": false,
+                "forceIncluded": false
+            },
+            {
+                "name": "reflection",
+                "excluded": false,
+                "forceIncluded": false
+            },
+            {
+                "name": "prefabs",
+                "excluded": false,
+                "forceIncluded": false
+            }
+        ],
         "disableRuntimeAnalysisForCode": true,
         "disableRuntimeAnalysisForShaders": false,
         "useShadersCache": true,
@@ -85,7 +113,7 @@
             "buildPlatform": "",
             "enabled": false
         },
-        "playerPrefs": true,
+        "playerPrefs": false,
         "enableDynamicBatching": false,
         "forceSourcesBasedCompilation": false
     },

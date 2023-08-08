@@ -1,0 +1,59 @@
+report@config:load 13.02
+Permissions were validated successfully.
+report@account:authorize 1474.42
+Exporting assets from Unity.........
+
+[ Stage1 ] Assets exported from Unity and staged for further processing
+report@unity:export 6043.55
+report@config:load 4.83
+Resources:
+{"unity.preloader.icon":"resources/unity.preloader.icon.png"}
+report@assets:stage2 2439.32
+report@assets:stage3 252.78
+[ Stage2 ] Assets postprocessed and bundled successfully
+report@config:unity 0.27
+report@config:load 3.68
+report@config:unity 0.17
+report@code:compose 40.06
+Authorized using stored user info.
+report@account:authorize 7.55
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+Build started 8/8/2023 11:12:50 AM.
+
+Project "C:\Users\thach\Downloads\5.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" on node 1 (Rebuild target(s)).
+
+CoreClean:
+  Creating directory "obj\Debug\".
+
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1217,5): error MSB3644: The reference assemblies for .NETFramework,Version=v4.7 were not found. To resolve this, install the Developer Pack (SDK/Targeting Pack) for this framework version or retarget your application. You can download .NET Framework Developer Packs at https://aka.ms/msbuild/developerpacks [C:\Users\thach\Downloads\5.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+Done Building Project "C:\Users\thach\Downloads\5.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target(s)) -- FAILED.
+
+[ error ] $
+[ error ] $Build FAILED.
+[ error ] $
+[ error ] $
+[ error ] $
+[ error ] $"C:\Users\thach\Downloads\5.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target) (1) ->
+[ error ] $(GetReferenceAssemblyPaths target) -> 
+[ error ] $
+[ error ] $  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1217,5): error MSB3644: The reference assemblies for .NETFramework,Version=v4.7 were not found. To resolve this, install the Developer Pack (SDK/Targeting Pack) for this framework version or retarget your application. You can download .NET Framework Developer Packs at https://aka.ms/msbuild/developerpacks [C:\Users\thach\Downloads\5.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+[ error ] $
+[ error ] $    0 Warning(s)
+[ error ] $    1 Error(s)
+[ error ] $
+[ error ] $
+[ error ] $Time Elapsed 00:00:00.91
+[ error ] $
+Diagnostics gathered successfully
+report@code:build 4899.53
+report@diagnostics:verify 0.57
+
+Fatal error while building C# code
+[ error ] $Project failed to build, check project diagnostics
+Error: DIAGNOSTICS_FATAL_ERROR
+    at Function.checkForErrors (C:\Users\thach\Downloads\5.2.0\pipeline\Jakefile.js:6:2978754)
+    at async _0x38a61e.action (C:\Users\thach\Downloads\5.2.0\pipeline\Jakefile.js:6:2983108)
