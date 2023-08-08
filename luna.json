@@ -1,7 +1,7 @@
 {
     "version": "5.2.0",
     "projectId": "c9cff327bd649014fac34b62073d9372",
-    "applicationID": 17623,
+    "applicationID": 0,
     "creativeName": "",
     "pgServer": "EU",
     "window": {
@@ -11,11 +11,14 @@
         "scripts": {
             "excludes": [
                 "**/Editor/",
-                "**/Luna/RuntimeScripts/"
+                "**/Luna/RuntimeScripts/",
+                "**/FacebookSDK/"
             ],
             "msbuildMac64": "/Library/Frameworks/Mono.framework/Versions/Current/bin/msbuild",
             "msbuildWin64": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe",
-            "externalSources": [],
+            "externalSources": [
+                ".\\Stubs"
+            ],
             "externalJSLibraries": [],
             "scriptingDefines": [],
             "msbuildVersion": "16.11",
@@ -105,7 +108,15 @@
         "bakeReferenceAmbientProbe": false,
         "unusedClasses": [],
         "unusedMethods": [],
-        "stubberDataList": [],
+        "stubberDataList": [
+            {
+                "SDKName": "Facebook Unity SDK",
+                "Namespace": "Facebook.Unity, FacebookGames, FacebookPlatformServiceClient",
+                "className": "All",
+                "buildPlatform": "Android",
+                "enabled": false
+            }
+        ],
         "stubberData": {
             "SDKName": "",
             "Namespace": "",
