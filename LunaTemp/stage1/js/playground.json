@@ -1,1 +1,1 @@
-{"title":"","icon":null,"fields":{},"assets":{},"sections":[],"buildId":"e2d8e044-84bb-4620-92f9-71baef7d3b72"}
+{"title":"Arena-Concept1","icon":null,"fields":{"LunaPlaygroundField":{"level":{"title":"Game Level","type":"int32","defaultValue":10,"constraints":{},"section":"Game Config","order":2,"localization":0,"options":{}},"mode":{"title":"Game Level","type":"int32","defaultValue":3,"constraints":{},"section":"Game Config","order":1,"localization":0,"options":{}}}},"assets":{},"sections":[],"buildId":"71935bd5-1cdb-418f-98b1-e5f778fdb2d1"}
